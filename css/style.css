@@ -18,6 +18,7 @@
 main {
   min-height: 100vh;
   background-color: var(--Blue-700);
+  font-family: "Roboto", sans-serif;
 }
 
 .newsletter-modal {
@@ -29,23 +30,26 @@ main {
 }
 
 .newsletter-modal__form-container {
-  background-color: var(--White);
   display: flex;
+  background-color: var(--White);
+  padding: 1rem;
+  border-radius: 11px;
 }
 
 .newsletter-modal__text-box {
   flex: 1;
+  padding: 2rem;
+}
+
+.newsletter-modal__title {
+  font-size: 3rem;
+  color: var(--Blue-800);
+  margin-bottom: 1rem;
 }
 
 .newsletter-modal__image-box {
   background-image: url("../assets/images/illustration-sign-up-desktop.svg");
   flex: 1;
   background-size: contain;
-  /* background-repeat: no-repeat; */
+  background-repeat: no-repeat;
 }
-
-/*
-
-8, 16, 24, 32, 40, 48, 56, 64, 72, 80, 88, 96, 104, 112, 120, 128
-
-*/
