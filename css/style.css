@@ -1,0 +1,51 @@
+:root {
+  /* ### Primary */
+  --Red: hsl(4, 100%, 67%);
+
+  /* ### Neutral */
+  --Blue-800: hsl(234, 29%, 20%);
+  --Blue-700: hsl(235, 18%, 26%);
+  --Grey: hsl(0, 0%, 58%);
+  --White: hsl(0, 0%, 100%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  min-height: 100vh;
+  background-color: var(--Blue-700);
+}
+
+.newsletter-modal {
+}
+
+.newsletter-modal__wrapper {
+  max-width: 60rem;
+  margin: 0 auto;
+}
+
+.newsletter-modal__form-container {
+  background-color: var(--White);
+  display: flex;
+}
+
+.newsletter-modal__text-box {
+  flex: 1;
+}
+
+.newsletter-modal__image-box {
+  background-image: url("../assets/images/illustration-sign-up-desktop.svg");
+  flex: 1;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+/*
+
+8, 16, 24, 32, 40, 48, 56, 64, 72, 80, 88, 96, 104, 112, 120, 128
+
+*/

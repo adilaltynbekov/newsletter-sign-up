@@ -4,6 +4,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+    <link rel="stylesheet" href="css/queries.css" />
+    <link rel="stylesheet" href="css/style.css" />
+
     <link
       rel="icon"
       type="image/png"
@@ -26,60 +29,68 @@
     <main>
       <section class="newsletter-modal">
         <div class="newsletter-modal__wrapper">
-          <!-- MODAL TEXT BOX -->
-          <div class="newsletter_modal__text-box">
-            <h1 class="newsletter_modal__title">Stay updated!</h1>
-            <p class="newsletter_modal__text">
-              Join 60,000+ product managers receiving monthly updates on:
-            </p>
-            <!-- LIST -->
-            <ul class="newsletter-modal__list">
-              <!-- ITEMS -->
-              <li class="newsletter-modal__list-item">
-                <img
-                  class="newsletter-modal__check-icon"
-                  src="assets/images/icon-list.svg"
-                  alt="Check icon"
-                />
-                <p class="newsletter-modal__item-text">
-                  Product discovery and building what matters
-                </p>
-              </li>
+          <div class="newsletter-modal__form-container">
+            <!-- MODAL TEXT BOX -->
+            <div class="newsletter-modal__text-box">
+              <h1 class="newsletter_modal__title">Stay updated!</h1>
+              <p class="newsletter_modal__text">
+                Join 60,000+ product managers receiving monthly updates on:
+              </p>
+              <!-- LIST -->
+              <ul class="newsletter-modal__list">
+                <!-- ITEMS -->
+                <li class="newsletter-modal__list-item">
+                  <img
+                    class="newsletter-modal__check-icon"
+                    src="assets/images/icon-list.svg"
+                    alt="Check icon"
+                  />
+                  <p class="newsletter-modal__item-text">
+                    Product discovery and building what matters
+                  </p>
+                </li>
 
-              <li class="newsletter-modal__list-item">
-                <img
-                  class="newsletter-modal__check-icon"
-                  src="assets/images/icon-list.svg"
-                  alt="Check icon"
-                />
-                <p class="newsletter-modal__item-text">
-                  Measuring to ensure updates are a success
-                </p>
-              </li>
+                <li class="newsletter-modal__list-item">
+                  <img
+                    class="newsletter-modal__check-icon"
+                    src="assets/images/icon-list.svg"
+                    alt="Check icon"
+                  />
+                  <p class="newsletter-modal__item-text">
+                    Measuring to ensure updates are a success
+                  </p>
+                </li>
 
-              <li class="newsletter-modal__list-item">
-                <img
-                  class="newsletter-modal__check-icon"
-                  src="assets/images/icon-list.svg"
-                  alt="Check icon"
-                />
-                <p class="newsletter-modal__item-text">And much more!</p>
-              </li>
-            </ul>
-            <!-- FORM -->
-            <form class="newsletter-modal__form">
-              <div>
-                <label for="email">Email address</label>
-                <input
-                  id="email"
-                  type="email"
-                  placeholder="email@company.com"
-                />
-              </div>
-              <button class="newsletter-modal__form-btn">
-                Subscribe to monthly newsletter
-              </button>
-            </form>
+                <li class="newsletter-modal__list-item">
+                  <img
+                    class="newsletter-modal__check-icon"
+                    src="assets/images/icon-list.svg"
+                    alt="Check icon"
+                  />
+                  <p class="newsletter-modal__item-text">And much more!</p>
+                </li>
+              </ul>
+              <!-- FORM -->
+              <form class="newsletter-modal__form">
+                <div>
+                  <label for="email">Email address</label>
+                  <input
+                    id="email"
+                    type="email"
+                    placeholder="email@company.com"
+                  />
+                </div>
+                <button class="newsletter-modal__form-btn">
+                  Subscribe to monthly newsletter
+                </button>
+              </form>
+            </div>
+            <!-- IMAGE BOX -->
+            <div
+              class="newsletter-modal__image-box"
+              role="img"
+              aria-label="Growth and analytics illustration."
+            ></div>
           </div>
         </div>
       </section>
