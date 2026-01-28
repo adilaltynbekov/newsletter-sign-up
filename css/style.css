@@ -41,7 +41,7 @@ main {
   background-image: url("../assets/images/illustration-sign-up-desktop.svg");
   flex: 1;
   background-size: contain;
-  background-repeat: no-repeat;
+  /* background-repeat: no-repeat; */
 }
 
 /*
